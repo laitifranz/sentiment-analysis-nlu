@@ -6,8 +6,8 @@ This work performs sentiment analysis at document-level using the ``movie_review
 
 ## Delivery contents
 - Four Jupyter notebooks
-  - **statistics** contains the source code to extract statistics for ``subjectivity`` and ``movie_reviews`` datasets, available in the NLTK library;
-  - **multinomialNB** contains the source code to build, train and evaluate a Naive Bayes-based sentiment analysis model using the scikit-learn library. Used as baseline;
-  - **gru** contains the source code to build, train and evaluate a GRU-based sentiment analysis model using the PyTorch library;
-  - **transformers** contains the source code to import, fine tune and evaluate a Transformer-based sentiment analysis model using Hugging Face tools. BERT-based model used in this project.
-- The **report** in pdf format that contains all the details of my implementation and the results obtained.
+  - [**statistics**](statistics.ipynb) contains the source code to extract statistics for ``subjectivity`` and ``movie_reviews`` datasets, available in the NLTK library;
+  - [**multinomialNB**](multinomialNB.ipynb) contains the source code to build, train and evaluate a Naive Bayes-based sentiment analysis model using the scikit-learn library. Used as baseline;
+  - [**gru**](gru.ipynb) contains the source code to build, train and evaluate a GRU-based sentiment analysis model using the PyTorch library;
+  - [**transformers**](transformer.ipynb) contains the source code to import, fine tune and evaluate a Transformer-based sentiment analysis model using Hugging Face tools. BERT-based model used in this project.
+- The [**report**](report.pdf) in pdf format that contains all the details of my implementation and the results obtained.
